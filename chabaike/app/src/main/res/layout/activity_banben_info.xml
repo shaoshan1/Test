@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoadingActivity">
+
+    <ImageView
+        android:id="@+id/banben_info_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/logo"
+        />
+    <TextView
+        android:id="@+id/banben_info_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banben_info_img"
+        android:paddingTop="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="7dp"
+        android:textSize="20sp"
+        android:text="买买茶，查百科"
+        />
+    <TextView
+        android:id="@+id/banben_info_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banben_info_a"
+        android:layout_centerInParent="true"
+        android:text="Vision:1.1"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/banben_info_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banben_info_b"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:text="copyright@2010-2013MailMailCha.cn"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/banben_info_d"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banben_info_c"
+        android:text="买卖茶  版权所有"
+        android:gravity="center"/>
+
+
+</RelativeLayout>

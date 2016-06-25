@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoadingActivity">
+
+    <ImageView
+        android:id="@+id/next_work_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/logo"
+        />
+
+    <ImageView
+        android:id="@+id/next_work_shoucangjia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next_work_img"
+        android:src="@drawable/shoucangjia"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next_work_img"
+        android:textSize="18dp"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="收藏夹"/>
+    <Button
+        android:id="@+id/next_btn_collection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next_work_img"
+        android:text="我的收藏"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="click"/>
+    <Button
+        android:id="@+id/next_btn_liulan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next_btn_collection"
+        android:text="浏览记录"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="click"/>
+
+    <ImageView
+        android:id="@+id/next_work_guanyu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next_btn_liulan"
+        android:src="@drawable/guanyu"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next_btn_liulan"
+        android:textSize="18dp"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="关于客户端"/>
+    <Button
+        android:id="@+id/next_btn_bx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next_work_guanyu"
+        android:text="版本信息"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="click"/>
+    <Button
+        android:id="@+id/next_btn_fk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/next_btn_bx"
+        android:text="客户反馈"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:onClick="click"/>
+
+
+
+</RelativeLayout>
