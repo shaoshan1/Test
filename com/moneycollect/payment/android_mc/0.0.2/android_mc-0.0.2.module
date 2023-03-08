@@ -3,7 +3,7 @@
   "component": {
     "group": "com.moneycollect.payment",
     "module": "android_mc",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7.1",
-      "buildId": "dqgtap3barf6lm77qebwmaizjm"
+      "buildId": "oc5drlgitzgvnpgvwhqf26d6va"
     }
   },
   "variants": [
@@ -207,20 +207,6 @@
           }
         },
         {
-          "group": "com.google.android.gms",
-          "module": "play-services-wallet",
-          "version": {
-            "requires": "19.1.0"
-          }
-        },
-        {
-          "group": "com.github.chuckerteam.chucker",
-          "module": "library",
-          "version": {
-            "requires": "3.5.2"
-          }
-        },
-        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -251,13 +237,13 @@
       ],
       "files": [
         {
-          "name": "android_mc-0.0.1.aar",
-          "url": "android_mc-0.0.1.aar",
-          "size": 1482431,
-          "sha512": "e414391da20d895bebc9900972067c2b10331a67cd96e313de94035dbb54bfec120635245afaf65220568e90eb2b8ed0de3c9150ce2fca153e0a890db4cde118",
-          "sha256": "cd870e02c4406233362deeb590eec72ce17372e9505da2c66c77039906fec1ea",
-          "sha1": "dde5804c68e625e0705c789431c81444aaeccf18",
-          "md5": "f4232d8395a360bc79e10cba6273ec9f"
+          "name": "android_mc-0.0.2.aar",
+          "url": "android_mc-0.0.2.aar",
+          "size": 1314371,
+          "sha512": "8fc4a29cb69ef6b2649b6cf4389a40e545db771fe3941f092c23fe7c14e65f9feed5161edbbb872b6872498fe97ac1ac34ca2f92d44aaadf64d53c2da1b69d99",
+          "sha256": "3aac1215c214714d7fce1ad5bb52365a69b74e8a03e62d443fee96bb878163d6",
+          "sha1": "32021068abad6e07306cb95bdb28b2f569762c78",
+          "md5": "44203b8c5185494aa30c753976e042cb"
         }
       ]
     },
@@ -453,20 +439,6 @@
           }
         },
         {
-          "group": "com.google.android.gms",
-          "module": "play-services-wallet",
-          "version": {
-            "requires": "19.1.0"
-          }
-        },
-        {
-          "group": "com.github.chuckerteam.chucker",
-          "module": "library",
-          "version": {
-            "requires": "3.5.2"
-          }
-        },
-        {
           "group": "androidx.databinding",
           "module": "viewbinding",
           "version": {
@@ -504,13 +476,13 @@
       ],
       "files": [
         {
-          "name": "android_mc-0.0.1.aar",
-          "url": "android_mc-0.0.1.aar",
-          "size": 1482431,
-          "sha512": "e414391da20d895bebc9900972067c2b10331a67cd96e313de94035dbb54bfec120635245afaf65220568e90eb2b8ed0de3c9150ce2fca153e0a890db4cde118",
-          "sha256": "cd870e02c4406233362deeb590eec72ce17372e9505da2c66c77039906fec1ea",
-          "sha1": "dde5804c68e625e0705c789431c81444aaeccf18",
-          "md5": "f4232d8395a360bc79e10cba6273ec9f"
+          "name": "android_mc-0.0.2.aar",
+          "url": "android_mc-0.0.2.aar",
+          "size": 1314371,
+          "sha512": "8fc4a29cb69ef6b2649b6cf4389a40e545db771fe3941f092c23fe7c14e65f9feed5161edbbb872b6872498fe97ac1ac34ca2f92d44aaadf64d53c2da1b69d99",
+          "sha256": "3aac1215c214714d7fce1ad5bb52365a69b74e8a03e62d443fee96bb878163d6",
+          "sha1": "32021068abad6e07306cb95bdb28b2f569762c78",
+          "md5": "44203b8c5185494aa30c753976e042cb"
         }
       ]
     }
