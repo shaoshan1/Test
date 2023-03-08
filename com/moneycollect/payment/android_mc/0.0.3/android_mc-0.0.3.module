@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.7.1",
-      "buildId": "xccug4lx5rcybiohavmdg6kufa"
+      "buildId": "2dlawjhcrjgx3hddxgfj73x5du"
     }
   },
   "variants": [
@@ -253,11 +253,11 @@
         {
           "name": "android_mc-0.0.3.aar",
           "url": "android_mc-0.0.3.aar",
-          "size": 1522798,
-          "sha512": "729bb0ee782063cfb1f3f049748a9a37264b80d2809e10d24b4a5db839de9e214a38fc5d67707e4b07dbc1f1cf44bee1148b29172f3c3286000a2edbb3002078",
-          "sha256": "0305c594fa3bcd8a15a7367dd001d0818a249fa2804627359868bee686b69c32",
-          "sha1": "7f72ec4fb6195a769a94b2f91da82d9bc5d2bde6",
-          "md5": "d199e6960e68d46dfa31e14aa17c8f5c"
+          "size": 1525583,
+          "sha512": "eb8bbd5093ccc7d79258b5a1fc97d8c955ac3dc6db074f6b4b60bf31d2d2582233aa59659816210b420a71fb419f19837d0da601f321f2e0a8042f4c71e9cd37",
+          "sha256": "bcbc426abb4a4e432550becb090e4f735e222d13e297459c630eab441ea7d063",
+          "sha1": "f931dc3bbbd32917846a9d1b0b718732ea07880e",
+          "md5": "0443a2d9a13e716b65be9ff36f0cf1db"
         }
       ]
     },
@@ -506,11 +506,11 @@
         {
           "name": "android_mc-0.0.3.aar",
           "url": "android_mc-0.0.3.aar",
-          "size": 1522798,
-          "sha512": "729bb0ee782063cfb1f3f049748a9a37264b80d2809e10d24b4a5db839de9e214a38fc5d67707e4b07dbc1f1cf44bee1148b29172f3c3286000a2edbb3002078",
-          "sha256": "0305c594fa3bcd8a15a7367dd001d0818a249fa2804627359868bee686b69c32",
-          "sha1": "7f72ec4fb6195a769a94b2f91da82d9bc5d2bde6",
-          "md5": "d199e6960e68d46dfa31e14aa17c8f5c"
+          "size": 1525583,
+          "sha512": "eb8bbd5093ccc7d79258b5a1fc97d8c955ac3dc6db074f6b4b60bf31d2d2582233aa59659816210b420a71fb419f19837d0da601f321f2e0a8042f4c71e9cd37",
+          "sha256": "bcbc426abb4a4e432550becb090e4f735e222d13e297459c630eab441ea7d063",
+          "sha1": "f931dc3bbbd32917846a9d1b0b718732ea07880e",
+          "md5": "0443a2d9a13e716b65be9ff36f0cf1db"
         }
       ]
     }
